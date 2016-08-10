@@ -1,0 +1,27 @@
+{
+  "name": "test-express-app",
+  "version": "1.0.0",
+  "description": "Simple testing endpoint.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mateothegreat/app-nodejs-tests-helloworld.git"
+  },
+  "keywords": [
+    "tests",
+    "docker"
+  ],
+  "author": "Matthew Davis <matthew@appsoa.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mateothegreat/app-nodejs-tests-helloworld/issues"
+  },
+  "homepage": "https://github.com/mateothegreat/app-nodejs-tests-helloworld#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
