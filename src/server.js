@@ -3,9 +3,16 @@ var express = require('express');
 var PORT = 8080;
 var app = express();
 
-app.get('/', function (req, res){
+app.get('/testuser', function (req, res){
     
-  res.send('Hello world!');
+  const myobj = {
+      
+      username: 'johndoe',
+      userid: 123
+      
+  };
+    
+  res.send(myobj);
   
 });
 
