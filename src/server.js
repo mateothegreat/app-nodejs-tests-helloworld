@@ -1,7 +1,7 @@
-var express = require('express');
+const express = require('express');
 
-var PORT = 8080;
-var app = express();
+const PORT = 8080;
+const app = express();
 
 app.get('/testuser', function (req, res){
     
